@@ -1,0 +1,27 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.navbar-color {
+  background-color: #2b2c2d;
+  border-color: red;
+  
+}
+.navbar-nav{
+  text-decoration: none;
+  color: white;
+}
+.navbar-text{
+  display: inline-flex;
+  color: white;
+}
+.navbar{
+  height: 150px;
+  width: 100%;
+}
+.logo{
+  height: 120px;
+  width: 120px;
+  padding-top: 5px;
+}
