@@ -6,31 +6,32 @@
     <%= title %>
   </title>
   <link rel='stylesheet' href='/stylesheets/style.css' />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
 </head>
 
 <body>
-  
-  <nav class="navbar navbar-color">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#"><img class="logo" src="/images/mu.png" alt=""></a>
-      </div>
-      <ul class="nav navbar-text">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Page 1</a></li>
-        <li><a href="#">Page 2</a></li>
-        <li><a href="#">Page 3</a></li>
-      </ul>
-    </div>
-  </nav>
-  
+  <% include partials/nav %>
   <h1>
     <%= title %>
   </h1>
-  <p>Welcome to
-    <%= title %>
-  </p>
+  
+
+  <div class="about"><p>Welcome to the
+      <%= title %> blog.
+    </p>
+
+    <div >
+      <p>The blog is to find news about Manchester united like live scores , latest transfer news, and some club news.
+        Manchester United Football Club, commonly known as Man United, or simply United, is a professional football
+        club based in Old Trafford, Greater Manchester, England, that competes in the Premier League, the top flight of
+        English football.</p>
+
+      <button class="sign-up">Sign-up</button>
+      <button class="login">login</button>
+    </div>
+  </div>
+
+
 
 </body>
 
