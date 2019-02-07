@@ -11,23 +11,31 @@
 
 <body>
   <% include partials/nav %>
-  <h1>
+  <h1 class="heading">
     <%= title %>
   </h1>
-  
 
-  <div class="about"><p>Welcome to the
-      <%= title %> blog.
-    </p>
 
-    <div >
-      <p>The blog is to find news about Manchester united like live scores , latest transfer news, and some club news.
-        Manchester United Football Club, commonly known as Man United, or simply United, is a professional football
+  <div class="about">
+    <div class="about-text">
+      <h2>Welcome to the
+        <%= title %> blog.
+      </h2>
+      <p>The blog is about finding information about the club Manchester United, where you will get the latest news
+        about the club. example latest tranfer news, latest and live scores and matches and about the Mangers and
+        players and owner of the club. All that will be provided on this blog</p>
+
+        <h3>A little more about the clun <%= title %></h3>
+
+      <p>Manchester United Football Club, commonly known as Man United, or simply United, is a professional football
         club based in Old Trafford, Greater Manchester, England, that competes in the Premier League, the top flight of
-        English football.</p>
+        English football. They have won 20 Premier leagues in the past years</p>
 
       <button class="sign-up">Sign-up</button>
       <button class="login">login</button>
+    </div>
+    <div class="about-img">
+      <img class="about-img" src="/images/Manchester.jpg" alt="">
     </div>
   </div>
 
