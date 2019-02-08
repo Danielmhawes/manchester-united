@@ -8,6 +8,7 @@ body {
   display: grid;
   grid-template-columns: auto auto;
   background-color: #2b2c2d;
+  height: 150px;
 
 }
 
@@ -60,7 +61,7 @@ h1{
   height: 500px;
   align-content: center;
   background-color: #5b5b5b;
-background-blend-mode: multiply
+  background-blend-mode: multiply;
 
   
 }
@@ -128,7 +129,21 @@ background-blend-mode: multiply
 }
 
 .readmore{
-  background-color: whit;
+  background-color: #DA291C;
+  width: 80px;
+  height: 35px;
+  border: #111 2px solid;
+
+}
+.readmore:hover{
+  background-color: #2b2c2d63;
+  border: #DA291C 2px solid;
+  
+  color: white;
+}
+button{
+  border-radius: 20%;
+  
 }
 
 /* a{

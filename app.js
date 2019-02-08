@@ -39,7 +39,10 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+module.exports = http;
 
-app.listen(3000, function(){
-  console.log("the application is running on localhost: 3000");
+app.listen(8080, function(){
+  console.log("the application is running on localhost: 8080");
 });
+// http.createServer.listen(8080)
+
