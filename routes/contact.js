@@ -5,7 +5,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Manchester United' })
+  res.render('contact', { title: 'Manchester United' })
   
 });
 

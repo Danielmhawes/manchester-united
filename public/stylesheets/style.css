@@ -1,5 +1,4 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -136,7 +135,7 @@ h1{
 
 }
 .readmore:hover{
-  background-color: #2b2c2d63;
+  background-color: #2b2c2d;
   border: #DA291C 2px solid;
   
   color: white;
@@ -144,6 +143,29 @@ h1{
 button{
   border-radius: 20%;
   
+}
+
+/* regester form */
+
+.register{
+  margin-top:3%; 
+  padding-top: 2%;
+  text-align: center;
+  background-color: #2b2c2d;
+  height: 300px;
+  color: white;
+}
+
+.user{
+  width: 180px;
+  height: 30px;
+}
+
+.signup-btn{
+  width: 80px;
+  height: 35px;
+  background-color: #DA291C;
+  border: #DA291C 2px solid;
 }
 
 /* a{

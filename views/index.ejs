@@ -18,46 +18,82 @@
 
   <div class="about">
     <div class="about-text">
-      <h2>Welcome to the 
+      <h2>Welcome to the
         <%= title %> blog.
       </h2>
       <p>The blog is about finding information about the club Manchester United, where you will get the latest news
         about the club. example latest tranfer news, latest and live scores and matches and about the Mangers and
         players and owner of the club. All that will be provided on this blog</p>
 
-        <h3>A little more about the club <%= title %></h3>
+      <h3>A little more about the club
+        <%= title %>
+      </h3>
 
       <p>Manchester United Football Club, commonly known as Man United, or simply United, is a professional football
         club based in Old Trafford, Greater Manchester, England, that competes in the Premier League, the top flight of
         English football. They have won 20 Premier leagues in the past years</p>
-        <div class="signin-up">
-            <button class="sign-up">Sign-up</button>
-            <button class="login">Login</button>
-        </div>
+      <div class="signin-up">
+        <button class="sign-up">Sign-up</button>
+        <button class="login">Login</button>
+      </div>
     </div>
-   
+
   </div>
   <h1>latest post</h1>
 
   <div class="latest-post">
-    
+
     <div>
       <img class="post" src="/images/ole.jpg" alt="">
-      <p> Manchester United are announcing Ole Gunnar Solskjaer as their caretaker manager after the sacking of José Mourinho , with the club intent on appointing a permanent replacement by the summer. Tottenham's Mauricio Pochettino is the current frontrunner. Ole has been on a good run of form with his team and the club wants him to end up in the top 4 by the end of the season. After Jose failing to do so. Ole has never lost a game since he is manager at the Manchester United</p>
+      <p> Manchester United are announcing Ole Gunnar Solskjaer as their caretaker manager after the sacking of José
+        Mourinho , with the club intent on appointing a permanent replacement by the summer. Tottenham's Mauricio
+        Pochettino is the current frontrunner. Ole has been on a good run of form with his team and the club wants him
+        to end up in the top 4 by the end of the season. After Jose failing to do so. Ole has never lost a game since
+        he is manager at the Manchester United</p>
 
       <div><button class="readmore">Readmore</button></div>
     </div>
     <div>
       <img class="post" src="/images/MUFC.jpg" alt="">
-      <p>Marcus Rashford has score the only goal in the game against Leicster City on the 03/02/19. ,with Paul Pogba assisting the goal which lead to United winning 1-0. To make it easier for the Manchester club they have to atleast win or draw most of there games to be intop flight form to reach the top 4 in the premier league if not top 3. </p>
+      <p>Marcus Rashford has score the only goal in the game against Leicster City on the 03/02/19. ,with Paul Pogba
+        assisting the goal which lead to United winning 1-0. To make it easier for the Manchester club they have to
+        atleast win or draw most of there games to be intop flight form to reach the top 4 in the premier league if not
+        top 3. </p>
       <div><button class="readmore">Readmore</button></div>
     </div>
     <div>
       <img class="post" src="/images/training.jpg" alt="">
-      <p>Manchester United will be versing Fulham in the premier league opening game on saturday the 09/02/19. They have worked hard on the training ground for the weekends game ahead, where Manchester United are in fifth place withe Chelsea in fourth which they are playing Manchester City on sunday. If Chelsea are to lose and Manchester United are to win it will leave Manchester team in fourth place.</p>
+      <p>Manchester United will be versing Fulham in the premier league opening game on saturday the 09/02/19. They
+        have worked hard on the training ground for the weekends game ahead, where Manchester United are in fifth place
+        withe Chelsea in fourth which they are playing Manchester City on sunday. If Chelsea are to lose and Manchester
+        United are to win it will leave Manchester team in fourth place.</p>
       <div><button class="readmore">Readmore</button></div>
-      
+
     </div>
+  </div>
+  <div class="register">
+    <h2>Sign up here!!</h2>
+    <form method="post" action="/login">
+      <p>
+        <label>First name:</label>
+        <input class="user" type="text" name="username" placeholder="First name">
+      </p>
+      <p>
+        <label>Last name:</label>
+        <input class="user" type="text" name="username" placeholder="Last Name">
+      </p>
+      <p>
+        <label> Enter Email:</label>
+        <input class="user" type="text" name="password" placeholder="Email">
+      </p>
+      <p>
+        <label>Password:</label>
+        <input class="user" type="text" name="password" placeholder="password">
+      </p>
+      <p>
+        <input type="submit" value="sign-up" class="signup-btn">
+      </p>
+    </form>
   </div>
 
 
