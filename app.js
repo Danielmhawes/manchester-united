@@ -51,4 +51,6 @@ app.listen(8000, function(){
   console.log("the application is running on localhost: 8000");
 });
 
+app.listen(process.env.PORT || 8000 )
+
 
